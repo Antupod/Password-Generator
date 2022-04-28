@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-/* DLYA REM EM */
-html {
-    font-size: 10px;
-}
-/* DLYA REM EM */
-
 body {
     background: linear-gradient(90deg, #ffd95e, #ff9090);
     color: rgb(249, 109, 109);
