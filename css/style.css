@@ -37,6 +37,7 @@ body {
 .form-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .input-title {
@@ -49,6 +50,7 @@ body {
 .range {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .quantity-characters{
@@ -56,7 +58,6 @@ body {
 }
 
 .button {
-
     width: 200px;
     height: 60px;
 
@@ -71,7 +72,7 @@ body {
     font-size: 20px;   
     cursor: pointer;
 
-    transition: 0.3s ease-in;
+    transition: 0.3s ease-in-out;
 }
 
 .button:hover {
